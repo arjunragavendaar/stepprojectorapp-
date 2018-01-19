@@ -5,8 +5,78 @@
     <title>Add Movie</title>
     <meta name ="description" content="My Add Movie">
     <meta charset="utf-8">
+    <link rel="stylesheet" href ="css/reset.css">
+    <link rel ="stylesheet"href = "css/movies.css">
+    <link rel ="stylesheet"href = "https://fonts.googleapis.com/css?family=Lato:300">
+
   </head>
   <body>
+<header>
+  <img  class ="logo "src="./images/projector-logo.png">
+
+  <nav>
+<ul class ="fright">
+  <li><a href="">Home</a></li>
+  <li><a href ="">Add movie</a></li>
+</ul>
+  </nav>
+  </header
+  <div class="clearfix"></div>
+  <form class="formclass" action="/sample-action">
+    <h2>Add a Movie</h2>
+    <ul>
+      <li>
+
+        <label for="movie-name">Movie Name</label>
+        <input id = "movie-name"type="text" name="movie-name" required/>
+
+      </li>
+      <li>
+
+        <label for="release-yr">Release Year</label>
+        <input id ="release-yr"type="text" name="release-yr" required/>
+
+      </li>
+      <li>
+      <label for="language">Language</label>
+      <select name="Language">
+        <option value="">Tamil</option>
+        <option value="">Hindi</option>
+        <option value="">English</option>
+      </select>
+        <label for="rating">Rating</label>
+        <select name="rating">
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select>
+      </li>
+      <li>
+        <label for="thumbnail">Thumbnail Url</label>
+        <input id ="thumbnail"type="url" name="thumbnail" required/>
+        </li>
+        <li>
+          <label for="plot">Plot</label>
+          <textarea name="plot" rows="8" cols="80"></textarea>
+        </li>
+        <li>
+          <label for="poster">poster Url</label>
+          <input id ="poster"type="url" name="poster" required/>
+          </li>
+          <li>
+            <label for="cast">Cast</label>
+            <textarea name="cast" rows="8" cols="80"></textarea>
+          </li>
+          </ul>
+
+          <input class="butt"  type="button" name="Save" value="save" required/>
+
+
+
+
+
+
+  </form>
 
   </body>
 </html>

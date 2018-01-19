@@ -1,0 +1,69 @@
+.logo
+{
+  width:250px;
+}
+.fright
+{
+  float: right;
+}
+.clearfix
+{
+  clear:both;
+}
+body{
+  font-style:'Lato',sans-serif;
+  background-color:#442D4B;
+  color: white;
+}
+header{
+  padding:40px;
+  height: 40px;
+}
+
+header ul li {
+
+  display:inline-block;
+  padding: 10px 15px;
+}
+header ul li a {
+  color:#ffcb59;
+  text-decoration: none;
+  font-size:20px;
+}
+.formclass
+{
+  width: 500px;
+  margin:0 auto;
+
+}
+.formclass h2
+{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.formclass label, .formclass input{
+  display: block;
+}
+.formclass textarea, .formclass input,.formclass select{
+  width:100%;
+  background-color: #442D4B;
+  border: 1px solid white;
+  margin: 7px 0 15px;
+  color :white;
+  padding: 0 5px;
+  font-size: 20px;
+  font-family: inherit;
+}
+.formclass input{
+  height: 40px;
+}
+
+.formclass input[type = "button"]
+{
+  background-color: #FFA500;
+  border:none;
+  border-radius: 20px;
+  width:220px;
+  margin-left: 135px;
+}
